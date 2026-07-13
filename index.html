@@ -1,146 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <title>Frontend Mentor | Time tracking dashboard</title>
-</head>
-<body>
-  <main class="dashboard">
-    <section class="profile-card">
-      <div class="profile-header">
-        <img src="./images/image-jeremy.png" alt="Jeremy Robson" class="profile-image">
-        <div class="profile-info">
-          <p class="profile-label">Report for</p>
-          <h1 class="profile-name">Jeremy Robson</h1>
-        </div>
-      </div>
-      <div class="timeframe-controls">
-        <button class="timeframe-btn" data-timeframe="daily" aria-pressed="false">Daily</button>
-        <button class="timeframe-btn active" data-timeframe="weekly" aria-pressed="true">Weekly</button>
-        <button class="timeframe-btn" data-timeframe="monthly" aria-pressed="false">Monthly</button>
-      </div>
-    </section>
-
-    <section class="activity-card work" data-activity="Work">
-      <div class="activity-background">
-        <img src="./images/icon-work.svg" alt="" class="activity-icon">
-      </div>
-      <div class="activity-content">
-        <div class="activity-header">
-          <h2 class="activity-title">Work</h2>
-          <button class="activity-menu" aria-label="Work options">
-            <img src="./images/icon-ellipsis.svg" alt="">
-          </button>
-        </div>
-        <div class="activity-stats">
-          <p class="activity-current">32hrs</p>
-          <p class="activity-previous">Last Week - 36hrs</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="activity-card play" data-activity="Play">
-      <div class="activity-background">
-        <img src="./images/icon-play.svg" alt="" class="activity-icon">
-      </div>
-      <div class="activity-content">
-        <div class="activity-header">
-          <h2 class="activity-title">Play</h2>
-          <button class="activity-menu" aria-label="Play options">
-            <img src="./images/icon-ellipsis.svg" alt="">
-          </button>
-        </div>
-        <div class="activity-stats">
-          <p class="activity-current">10hrs</p>
-          <p class="activity-previous">Last Week - 8hrs</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="activity-card study" data-activity="Study">
-      <div class="activity-background">
-        <img src="./images/icon-study.svg" alt="" class="activity-icon">
-      </div>
-      <div class="activity-content">
-        <div class="activity-header">
-          <h2 class="activity-title">Study</h2>
-          <button class="activity-menu" aria-label="Study options">
-            <img src="./images/icon-ellipsis.svg" alt="">
-          </button>
-        </div>
-        <div class="activity-stats">
-          <p class="activity-current">4hrs</p>
-          <p class="activity-previous">Last Week - 7hrs</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="activity-card exercise" data-activity="Exercise">
-      <div class="activity-background">
-        <img src="./images/icon-exercise.svg" alt="" class="activity-icon">
-      </div>
-      <div class="activity-content">
-        <div class="activity-header">
-          <h2 class="activity-title">Exercise</h2>
-          <button class="activity-menu" aria-label="Exercise options">
-            <img src="./images/icon-ellipsis.svg" alt="">
-          </button>
-        </div>
-        <div class="activity-stats">
-          <p class="activity-current">4hrs</p>
-          <p class="activity-previous">Last Week - 5hrs</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="activity-card social" data-activity="Social">
-      <div class="activity-background">
-        <img src="./images/icon-social.svg" alt="" class="activity-icon">
-      </div>
-      <div class="activity-content">
-        <div class="activity-header">
-          <h2 class="activity-title">Social</h2>
-          <button class="activity-menu" aria-label="Social options">
-            <img src="./images/icon-ellipsis.svg" alt="">
-          </button>
-        </div>
-        <div class="activity-stats">
-          <p class="activity-current">5hrs</p>
-          <p class="activity-previous">Last Week - 10hrs</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="activity-card self-care" data-activity="Self Care">
-      <div class="activity-background">
-        <img src="./images/icon-self-care.svg" alt="" class="activity-icon">
-      </div>
-      <div class="activity-content">
-        <div class="activity-header">
-          <h2 class="activity-title">Self Care</h2>
-          <button class="activity-menu" aria-label="Self Care options">
-            <img src="./images/icon-ellipsis.svg" alt="">
-          </button>
-        </div>
-        <div class="activity-stats">
-          <p class="activity-current">2hrs</p>
-          <p class="activity-previous">Last Week - 2hrs</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
